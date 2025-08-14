@@ -55,9 +55,6 @@
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
-              <infoLinks>
-                <infoLink name="Ruthless Efficiency" id="ad1d-0c4b-ab2a-20e6" hidden="false" type="rule" targetId="ac1b-7bc9-3778-09a1"/>
-              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Needgaârd Oathband" hidden="false" id="1077-70a1-0570-5685">
               <rules>
@@ -120,8 +117,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="79d3-b005-92f2-a0e0" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink id="fabe-a7e6-dff1-f548" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="53a7-126c-5f2f-903c" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="fabe-a7e6-dff1-f548" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="a502-4760-9e5e-6207" name="Grim Efficiency" hidden="false" targetId="d3b8-a9b6-d4ff-013e" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -198,8 +194,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="38fc-9cf5-b104-3ff8" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="1667-8d87-9cd8-7512" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="38fc-9cf5-b104-3ff8" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="af3d-c404-9093-025e" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -988,9 +983,8 @@
       </profiles>
       <infoLinks>
         <infoLink id="0c1d-c624-08c7-5ad6" name="Grim Efficiency" hidden="false" targetId="d3b8-a9b6-d4ff-013e" type="profile"/>
-        <infoLink id="9255-8508-8525-ab6e" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
+        <infoLink id="9255-8508-8525-ab6e" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="20d5-8358-15be-4342" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink id="8ea7-9090-9f3b-b1be" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8eba-a0ee-7c2e-467c" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -1255,9 +1249,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6cc9-5433-eeba-da44" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
+        <infoLink id="6cc9-5433-eeba-da44" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="ad43-385c-5be2-2557" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink id="7b88-68ad-3a1f-880b" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8847-5ae0-2651-281f" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -1469,9 +1462,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1bd1-ef88-51ab-dd6e" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
+        <infoLink id="1bd1-ef88-51ab-dd6e" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="0e55-0790-09f9-cab6" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink id="7549-30e2-7891-6780" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7c5-6c5f-51e4-8ef8" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -1791,8 +1783,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="b8b2-1ac7-9247-ce63" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink id="b758-0ae9-517e-8e53" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="dbc4-b749-1b8d-7750" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="b758-0ae9-517e-8e53" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dc3a-2d6a-8123-2be9" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -2192,8 +2183,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1d85-675b-599d-1ec8" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="a71c-a52a-c2c3-7b6e" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="1d85-675b-599d-1ec8" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f112-a95c-a22b-1eec" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -2724,8 +2714,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="136b-bb76-21cd-514e" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="5a75-239e-f560-639a" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="136b-bb76-21cd-514e" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="cd3c-3282-7881-53c9" name="Feel No Pain" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="5+"/>
@@ -3099,8 +3088,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8055-698a-2843-814b" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="c389-3c7d-4435-5a9b" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="8055-698a-2843-814b" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="6562-343c-7c17-6fc2" name="Scouts" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="9&quot;"/>
@@ -3672,8 +3660,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1bfe-f3fc-7477-33b4" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="5fb5-438e-1d19-a335" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="1bfe-f3fc-7477-33b4" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="b493-f7b7-b73e-2b44" name="Scouts" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="6&quot;"/>
@@ -3935,8 +3922,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="182a-bf4e-0a00-23a6" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="a3c0-16dc-0a99-2e7a" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="182a-bf4e-0a00-23a6" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="438e-266b-89e1-a213" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
@@ -4193,8 +4179,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d567-685c-da95-cf3b" name="Eye of the Ancestors" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink id="3b1a-711e-ac5a-8473" name="Ruthless Efficiency" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink id="d567-685c-da95-cf3b" name="Prioritized Efficiency" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink id="fab2-2eb6-53df-7456" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
@@ -4565,8 +4550,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Eye of the Ancestors" id="bc75-45b7-e379-9a96" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
-        <infoLink name="Ruthless Efficiency" id="3ac3-3688-0ea7-50ef" hidden="false" targetId="ac1b-7bc9-3778-09a1" type="rule"/>
+        <infoLink name="Prioritized Efficiency" id="bc75-45b7-e379-9a96" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink name="Infiltrators" id="ef4b-2e1f-b1d5-0729" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
       </infoLinks>
       <categoryLinks>
@@ -5484,42 +5468,13 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="351a-a702-9080-7f08" name="Eye of the Ancestors" hidden="false">
-      <description>If your Army Faction is LEAGUES OF VOTANN, each time an enemy unit destroys a LEAGUES OF VOTANN unit from your army, that enemy unit gains 1 Judgement token. An enemy unit can never have more than 2 Judgement tokens (any further Judgement tokens a unit would gain beyond this are ignored).
-Each time a model from your army with this ability makes an attack that targets a unit that has one or more Judgement tokens, until that model’s attacks have been resolved, apply the relevant bonus from the table below to that attack.
-
-JUDGEMENT TOKENS BONUS
-1. Eminent Threat: Add 1 to the Hit roll.
-2. Now We’ve Got a Grudge to Settle: Add 1 to the Hit roll and add 1 to the Wound roll.
-
-In addition, at the start of the battle, select two units from your opponent’s army; each of those units start the battle with 2 Judgement tokens.
-
-Designer’s Note: If a unit with Judgement tokens is removed from the battlefield, make a note of how many Judgement tokens it had when it was removed. If that unit is set up on the battlefield again, place the corresponding number of Judgement tokens next to it. If a unit with Judgement tokens splits up into two or more smaller units, each of those units gains a number of Judgement tokens equal to that of the original unit. If two units combine to form a single larger unit and either of those units had Judgement tokens, make a note of how many the unit with the most has, just before they combine – the new unit has a number of Judgement tokens equal to this.</description>
-    </rule>
-    <rule id="ac1b-7bc9-3778-09a1" name="Ruthless Efficiency" hidden="false">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="8103-5cc7-c12e-efc5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8103-5cc7-c12e-efc5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <description>At the start of the battle, select a additional number of units from your opponent’s army depending on the battle size, as shown below: 
-■ Incursion: 1 units 
-■ Strike Force: 2 units 
-■ Onslaught: 4 units.
-Each of those units starts the battle with 2 Judgement tokens (see Eye of the Ancestors).
-
-If, at the start of any of your Command phases, any of those enemy units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).
-
-Unit destroyed by the start of your first or second Command phase: You gain 3CP
-Unit destroyed by the start of your third or fourth Command phase: You gain 2CP
-Unit destroyed by the start of your fifth Command phase: You gain 1CP</description>
+    <rule id="351a-a702-9080-7f08" name="Prioritized Efficiency" hidden="false">
+      <description>If your Army Faction is LEAGUES OF VOTANN, units have either Hostile Acquisition or Fortify Takeover. During battle, the current ability will change depending on your number of Yield Points (YP) you currently have.
+      You gain YP as follow, at the end of each player's Command Phase. (During the first round, only look at the first way to gain YP) :
+      - Control your own objective in your deployment
+      - Control one objective not in your zone
+      - Control two objectives not in your zone
+      - Control more objectives than your opponent
     </rule>
     <rule id="5cfb-f5b5-a838-4622" name="Conversion" hidden="false">
       <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
