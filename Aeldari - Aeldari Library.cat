@@ -38390,6 +38390,176 @@ Improve the Leadership characteristic of ^^**Wych Cult**^^ models from your army
             <infoLink name="Corsairs and Travelling Players" id="b11e-819b-20d1-f5f2" hidden="true" type="rule" targetId="8344-0055-bb1f-4783"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Serpent's Brood" hidden="false" id="serp-brood-det-001">
+          <rules>
+            <rule name="Boons of the Brood" id="serp-brood-rule-001" hidden="false">
+              <description>Weapons equipped by **^^Harlequins Mounted^^** and **^^Harlequins Vehicle^^** models from your army have the **^^[Sustained Hits 1]^^** ability.
+Each time a **^^Harlequins^^** unit from your army disembarks from a **^^Transport^^**, until the end of the turn, that unit's weapons have the **^^[Sustained Hits 1]^^** ability.</description>
+            </rule>
+            <rule name="Travelling Players" id="serp-brood-rule-002" hidden="false">
+              <description>■ **^^Troupe^^** units from your army gain the **^^Battleline^^** keyword, and **^^Troupe^^** models in those units have an Objective Control characteristic of 2.
+■ You can include up to three of each of the following models in your army: **^^Death Jester^^**, **^^Shadowseer^^**, **^^Troupe Master^^**.</description>
+            </rule>
+          </rules>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Enhancements" id="serp-brood-enh-001" hidden="false" collective="false">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="serp-brood-enh-001-max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Key of Ghosts" hidden="false" id="serp-brood-enh-key-ghosts">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="serp-brood-enh-key-ghosts-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Key of Ghosts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="serp-brood-enh-key-ghosts-profile">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Harlequins^^** model only (excluding **^^Solitaire^^** models).
+Models in the bearer's unit have the **^^Scouts 6"^^** ability.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Weavers' Wail" hidden="false" id="serp-brood-enh-weavers-wail">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="serp-brood-enh-weavers-wail-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Weavers' Wail" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="serp-brood-enh-weavers-wail-profile">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Troupe Master^^** model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer's melee weapons.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Fanged Leer" hidden="false" id="serp-brood-enh-fanged-leer">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="serp-brood-enh-fanged-leer-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Fanged Leer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="serp-brood-enh-fanged-leer-profile">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Jester^^** model only. When using the bearer's Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shedskin Raiment" hidden="false" id="serp-brood-enh-shedskin-raiment">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="serp-brood-enh-shedskin-raiment-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Shedskin Raiment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="serp-brood-enh-shedskin-raiment-profile">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Shadowseer^^** model only. After both players have deployed their armies, select up to three **^^Harlequins^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Stratagems" id="serp-brood-strat-001" hidden="false" collective="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fangs of the Brood" hidden="false" id="serp-brood-strat-fangs">
+                  <profiles>
+                    <profile name="Fangs of the Brood" typeId="f71f-b0a4-2b8a-9ec9" typeName="Stratagems" hidden="false" id="serp-brood-strat-fangs-profile">
+                      <characteristics>
+                        <characteristic name="Type" typeId="bdc0-4d6c-8894-29a8">Serpent's Brood - Battle Tactic Stratagem</characteristic>
+                        <characteristic name="CP Cost" typeId="5fbb-55d5-4525-ac3e">1CP</characteristic>
+                        <characteristic name="Use this Stratagem in" typeId="7c53-c42d-8b1a-8660">Start of the Fight phase.</characteristic>
+                        <characteristic name="Target" typeId="ec87-c408-492b-7c2d">One Troupe unit from your army.</characteristic>
+                        <characteristic name="Effect" typeId="2fd2-8fb6-1fdd-c033">Until the end of the phase, when using your unit's Dance of Death ability, you can select three of the abilities for your unit to gain, instead of one.</characteristic>
+                        <characteristic name="Restrictions" typeId="da20-1d71-351d-8637">N/A</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Venomous Wrath" hidden="false" id="serp-brood-strat-venomous">
+                  <profiles>
+                    <profile name="Venomous Wrath" typeId="f71f-b0a4-2b8a-9ec9" typeName="Stratagems" hidden="false" id="serp-brood-strat-venomous-profile">
+                      <characteristics>
+                        <characteristic name="Type" typeId="bdc0-4d6c-8894-29a8">Serpent's Brood - Strategic Ploy Stratagem</characteristic>
+                        <characteristic name="CP Cost" typeId="5fbb-55d5-4525-ac3e">1CP</characteristic>
+                        <characteristic name="Use this Stratagem in" typeId="7c53-c42d-8b1a-8660">Your Shooting phase.</characteristic>
+                        <characteristic name="Target" typeId="ec87-c408-492b-7c2d">One Harlequins Vehicle unit from your army that has not been selected to shoot this phase.</characteristic>
+                        <characteristic name="Effect" typeId="2fd2-8fb6-1fdd-c033">After your unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6". Until the end of the turn, your unit is not eligible to declare a charge.</characteristic>
+                        <characteristic name="Restrictions" typeId="da20-1d71-351d-8637">N/A</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Striking Stride" hidden="false" id="serp-brood-strat-striking">
+                  <profiles>
+                    <profile name="Striking Stride" typeId="f71f-b0a4-2b8a-9ec9" typeName="Stratagems" hidden="false" id="serp-brood-strat-striking-profile">
+                      <characteristics>
+                        <characteristic name="Type" typeId="bdc0-4d6c-8894-29a8">Serpent's Brood - Strategic Ploy Stratagem</characteristic>
+                        <characteristic name="CP Cost" typeId="5fbb-55d5-4525-ac3e">2CP</characteristic>
+                        <characteristic name="Use this Stratagem in" typeId="7c53-c42d-8b1a-8660">Your Charge phase.</characteristic>
+                        <characteristic name="Target" typeId="ec87-c408-492b-7c2d">One Harlequins unit from your army.</characteristic>
+                        <characteristic name="Effect" typeId="2fd2-8fb6-1fdd-c033">Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+                        <characteristic name="Restrictions" typeId="da20-1d71-351d-8637">N/A</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Weavers' Coils" hidden="false" id="serp-brood-strat-weavers-coils">
+                  <profiles>
+                    <profile name="Weavers' Coils" typeId="f71f-b0a4-2b8a-9ec9" typeName="Stratagems" hidden="false" id="serp-brood-strat-weavers-coils-profile">
+                      <characteristics>
+                        <characteristic name="Type" typeId="bdc0-4d6c-8894-29a8">Serpent's Brood - Strategic Ploy Stratagem</characteristic>
+                        <characteristic name="CP Cost" typeId="5fbb-55d5-4525-ac3e">1CP</characteristic>
+                        <characteristic name="Use this Stratagem in" typeId="7c53-c42d-8b1a-8660">End of your Fight phase.</characteristic>
+                        <characteristic name="Target" typeId="ec87-c408-492b-7c2d">One Harlequins Mounted unit from your army that was eligible to fight this phase.</characteristic>
+                        <characteristic name="Effect" typeId="2fd2-8fb6-1fdd-c033">If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. Otherwise, your unit can make a Fall Back move of up to 6".</characteristic>
+                        <characteristic name="Restrictions" typeId="da20-1d71-351d-8637">N/A</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Weaving Stride" hidden="false" id="serp-brood-strat-weaving">
+                  <profiles>
+                    <profile name="Weaving Stride" typeId="f71f-b0a4-2b8a-9ec9" typeName="Stratagems" hidden="false" id="serp-brood-strat-weaving-profile">
+                      <characteristics>
+                        <characteristic name="Type" typeId="bdc0-4d6c-8894-29a8">Serpent's Brood - Strategic Ploy Stratagem</characteristic>
+                        <characteristic name="CP Cost" typeId="5fbb-55d5-4525-ac3e">1CP</characteristic>
+                        <characteristic name="Use this Stratagem in" typeId="7c53-c42d-8b1a-8660">Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.</characteristic>
+                        <characteristic name="Target" typeId="ec87-c408-492b-7c2d">One Harlequins Infantry unit from your army that is within 9" of that enemy unit.</characteristic>
+                        <characteristic name="Effect" typeId="2fd2-8fb6-1fdd-c033">Your unit can make a Normal move of up to 6".</characteristic>
+                        <characteristic name="Restrictions" typeId="da20-1d71-351d-8637">N/A</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Skyward Lunge" hidden="false" id="serp-brood-strat-skyward">
+                  <profiles>
+                    <profile name="Skyward Lunge" typeId="f71f-b0a4-2b8a-9ec9" typeName="Stratagems" hidden="false" id="serp-brood-strat-skyward-profile">
+                      <characteristics>
+                        <characteristic name="Type" typeId="bdc0-4d6c-8894-29a8">Serpent's Brood - Strategic Ploy Stratagem</characteristic>
+                        <characteristic name="CP Cost" typeId="5fbb-55d5-4525-ac3e">2CP</characteristic>
+                        <characteristic name="Use this Stratagem in" typeId="7c53-c42d-8b1a-8660">End of your opponent's Fight phase.</characteristic>
+                        <characteristic name="Target" typeId="ec87-c408-492b-7c2d">One Harlequins Vehicle or Harlequins Mounted unit from your army.</characteristic>
+                        <characteristic name="Effect" typeId="2fd2-8fb6-1fdd-c033">If your unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.</characteristic>
+                        <characteristic name="Restrictions" typeId="da20-1d71-351d-8637">N/A</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Reaver Wargear" id="aa50-13de-17f0-0c47" hidden="false">
