@@ -4261,6 +4261,7 @@ While this model is leading a Striking Scorpions unit, it has the Infiltrators, 
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="be59-ec7d-2f02-b6ec" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="serp-brood-det-001" shared="true" includeChildForces="true" includeChildSelections="true"/>
                 <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildForces="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
@@ -9087,6 +9088,7 @@ While this model is leading a Striking Scorpions unit, it has the Infiltrators, 
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="be59-ec7d-2f02-b6ec" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="serp-brood-det-001" shared="true" includeChildForces="true" includeChildSelections="true"/>
                 <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildForces="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
@@ -13009,6 +13011,7 @@ You can attach this unit to one of the above units, even if Yvraine has already 
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="be59-ec7d-2f02-b6ec" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="serp-brood-det-001" shared="true" includeChildForces="true" includeChildSelections="true"/>
                 <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildForces="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
@@ -38402,6 +38405,43 @@ Each time a **^^Harlequins^^** unit from your army disembarks from a **^^Transpo
             <rule name="Travelling Players" id="serp-brood-rule-002" hidden="false">
               <description>■ **^^Troupe^^** units from your army gain the **^^Battleline^^** keyword, and **^^Troupe^^** models in those units have an Objective Control characteristic of 2.
 ■ You can include up to three of each of the following models in your army: **^^Death Jester^^**, **^^Shadowseer^^**, **^^Troupe Master^^**.</description>
+            </rule>
+            <rule name="Serpent's Brood Stratagems" id="serp-brood-strats" hidden="false">
+              <description>**FANGS OF THE BROOD - 1CP**
+Serpent's Brood - Battle Tactic Stratagem
+**WHEN:** Start of the Fight phase.
+**TARGET:** One **^^Troupe^^** unit from your army.
+**EFFECT:** Until the end of the phase, when using your unit's Dance of Death ability, you can select three of the abilities for your unit to gain, instead of one.
+
+**VENOMOUS WRATH - 1CP**
+Serpent's Brood - Strategic Ploy Stratagem
+**WHEN:** Your Shooting phase.
+**TARGET:** One **^^Harlequins Vehicle^^** unit from your army that has not been selected to shoot this phase.
+**EFFECT:** After your unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6". Until the end of the turn, your unit is not eligible to declare a charge.
+
+**STRIKING STRIDE - 2CP**
+Serpent's Brood - Strategic Ploy Stratagem
+**WHEN:** Your Charge phase.
+**TARGET:** One **^^Harlequins^^** unit from your army.
+**EFFECT:** Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.
+
+**WEAVERS' COILS - 1CP**
+Serpent's Brood - Strategic Ploy Stratagem
+**WHEN:** End of your Fight phase.
+**TARGET:** One **^^Harlequins Mounted^^** unit from your army that was eligible to fight this phase.
+**EFFECT:** If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. Otherwise, your unit can make a Fall Back move of up to 6".
+
+**WEAVING STRIDE - 1CP**
+Serpent's Brood - Strategic Ploy Stratagem
+**WHEN:** Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.
+**TARGET:** One **^^Harlequins Infantry^^** unit from your army that is within 9" of that enemy unit.
+**EFFECT:** Your unit can make a Normal move of up to 6".
+
+**SKYWARD LUNGE - 2CP**
+Serpent's Brood - Strategic Ploy Stratagem
+**WHEN:** End of your opponent's Fight phase.
+**TARGET:** One **^^Harlequins Vehicle^^** or **^^Harlequins Mounted^^** unit from your army.
+**EFFECT:** If your unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.</description>
             </rule>
           </rules>
         </selectionEntry>
